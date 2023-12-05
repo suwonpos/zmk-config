@@ -29,7 +29,6 @@
                      &kp LCTRL &kp LALT  &kp LGUI       &kp SPACE &lt 1 RET  &lt 2 RET &kp SPACE    &kp BSPC    &kp LBKT    &kp RBKT
             >;
 
-            sensor-bindings = <&none &none>;
         };
 
         lower_layer {
@@ -47,7 +46,7 @@
                  &trans    &trans   &trans    &ext_power EP_TOG &trans  &trans &trans    &trans   &trans          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
+    
         };
 
         raise_layer {
@@ -65,7 +64,7 @@
                        &trans          &trans          &trans          &trans          &trans  &trans &ext_power EP_TOG  &trans     &trans   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
+ 
         };
     };
 };
